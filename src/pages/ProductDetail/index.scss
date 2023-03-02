@@ -1,0 +1,145 @@
+.product__detail_container {
+    display: flex;
+    width: 100%;
+}
+.product__detail_container .single__pro_image {
+    width: 500px;
+    height: auto;
+    // height: 30%;
+    margin-right: 50px;
+    // overflow: hidden;
+
+    .product__image {
+        width: 100%;
+    }
+   
+
+    .small_img_group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+
+.product__detail_container .single__product__detail {
+    width: 60%;
+    padding: 30px;
+
+    h2 {
+        padding: 40px 0 20px 0;
+        font-weight: bold;
+        color: #ff8c6b;
+    }
+
+    .product__rating i{
+        color: yellow;
+        font-size: 1.5rem;
+    }
+
+    .product__price {
+        color: #ff8c6b;
+        margin-top: 15px;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        p {
+            display: inline-block;
+        }
+    }
+
+
+
+    h4 {
+        margin-top: 15px;
+        font-size: 1.5rem;
+        color: #ff8c6b;
+        font-weight: bold;
+    }
+
+    p{
+        line-height: 25px;
+        color: black;
+    }
+}
+
+.title_pro_detail {
+    color: #ff8c6b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: inline;
+
+
+}
+.container_shop {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-page {
+    background-color: #ff8c6b;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+.tab__wrapper h6{
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tab__content p {
+    line-height: 30px;
+}
+
+.active__tab {
+    font-weight: 600;
+}
+
+.addBtn {
+    background-color: white;
+    border: 1px solid #ff8c6b;
+    color: #ff8c6b;
+}
+
+.addBtn:hover {
+    background-color: #ff8c6b;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .product__detail_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__detail_container .single__pro_image{
+        width: 100%;
+        margin-right: 80px;
+    }
+
+    .product__detail_container .single__product__detail {
+        width: 100%;
+       
+    }
+
+    .product__detail_container .single__product__detail button{
+        width: 100%;
+       
+    }
+    
+
+    .product__item {
+        width: 80%;
+        margin-left: 60px;
+    }
+
+    
+
+}

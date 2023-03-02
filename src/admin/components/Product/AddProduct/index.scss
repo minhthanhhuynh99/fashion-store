@@ -1,0 +1,94 @@
+.ProductAdd{
+    background-color: #ecf0f1;
+    height: calc(100vh - 70px);
+    padding: 1rem;
+
+    .ProductAdd__content{
+        padding: 1rem;
+        width: 100%;
+        background-color: white;
+        .title__addProduct{
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+    .content__form{
+        display: grid;
+        gap: 1rem;
+        margin: 1rem 0;
+        overflow: auto;
+    }
+    .ProductAdd__left{
+        padding: 0 3rem;
+    }
+    .ProductAdd__right{
+        padding: 0 3rem;
+    }
+    .from__group{
+        display: flex;
+        flex-direction: column;
+        margin: .5rem auto;
+    } 
+    .from__group > label {
+        font-weight: 600;
+        white-space: nowrap;
+    } 
+    .from__group > label > span{
+        color: red;
+        font-weight: 400;
+        font-size: .8rem;
+        margin: 0 1rem;
+      
+    }
+    .from__group > input {
+        margin: .5rem 0;
+        border: 1px solid #bdc3c7;
+        border-radius: 5px;
+        outline: none;
+        padding: .5rem .5rem;
+    }
+    .from__group > select{
+        margin: .5rem 0;
+        border: 1px solid #bdc3c7;
+        border-radius: 5px;
+        outline: none;
+        padding: .5rem .5rem;
+    }
+    .from__group > textarea{
+        margin: .5rem 0;
+        border: 1px solid #bdc3c7;
+        border-radius: 5px;
+        outline: none;
+        padding: .5rem .5rem;
+    }
+    .btn__group {
+        text-align: center;
+    }
+    .btn__group > input {
+        border: none;
+        border-radius: 5px;
+        background: #0fbcf9;
+        color: #fff;
+        margin: 1rem .7rem;
+        padding: .3rem .8rem;
+    } 
+    .btn__group > input:last-child{
+        background: #bdc3c7;
+    }
+    .btn__group > input:hover{
+        background-color: orange;
+        transform: scale(1.1);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .ProductAdd{
+        .ProductAdd__content{
+            max-width: 700px;
+        }
+        .content__form{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 1rem;
+        }
+    }
+  }

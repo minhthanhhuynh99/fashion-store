@@ -1,0 +1,46 @@
+.order__List{
+    overflow: hidden;
+    .order__content{
+        padding: 1rem;
+    }
+   .table1{
+    width: 100%;
+    .table__header1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+
+    }
+    .table__header1 > p{
+        color: #0000;
+    }
+    .table__header1 > div > button{
+        outline: none;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .table__header1 > div > input{
+        padding: 10px 20px;
+        margin:  0 10px;
+        outline: none;
+        border: 1px solid #0fbcf9;
+        border-radius: 6px;
+        color: #0fbcf9;
+    }
+    .table__header1 > div > input::placeholder{
+        color: #0000;
+    }
+    .add__new{
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #0fbcf9;
+    }
+   }
+   .table__section{
+    height: 650px;
+   }
+}
+
+

@@ -1,0 +1,112 @@
+.viewProduct{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #ecf0f1;
+    height: calc(100vh - 70px);
+    padding: 1rem;
+    .viewUser__content{
+        padding: 1rem;
+        width: 100%;
+        background-color: #fff;
+        .title{
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            text-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+        }
+        .content-viewUser{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1.5rem;
+            margin: 1rem 0;
+            overflow: auto;
+        }
+        .content__right{
+            padding: 0 1rem;
+        }
+        .from__img {
+            text-align: center;
+        }
+        .from__img > img{
+            background-color: #bdc3c7;
+            padding: .2rem;
+            max-width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .link__changePassword{
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .link__changePassword > a{    
+            cursor: pointer;
+            margin: .2rem 0;
+            width: auto;
+            font-size: .9rem;
+            font-weight: 500;
+        }
+        .link__changePassword > a > i{
+            margin-right: .8rem;
+            font-weight: 700;
+            color: orange;
+        }
+        .link__changePassword > a:hover{
+            transition: .8s;
+            color: orange;
+            font-weight: 600;
+        }
+        .btn__click{
+            text-align: center;
+        }
+        .btn__click > button{
+            border: none;
+            border-radius: 5px;
+            background: #0fbcf9;
+            color: #fff;
+            margin: 1rem .7rem;
+            padding: .3rem .8rem;
+        }
+        .btn__click > button:hover{
+            background-color: orange;
+             transform: scale(1.1);
+        }
+    }
+    .info__group{
+        display: flex;
+        margin: .5rem auto;
+        align-items: center;
+    }
+    .info__group p{
+        flex: 2;
+    }  
+    .info__group span{
+        flex: 5;
+    }
+    .info__group p{
+        font-weight: 500;
+        white-space: nowrap;
+        font-weight: 700;
+        margin-right:  1rem;
+        color: black;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .viewProduct{
+        .viewUser__content{
+            max-width: 700px;
+            .content-viewUser{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 1rem;
+            }
+        }
+        .info__group p{
+            flex: 1;
+        }  
+        .info__group span{
+            flex: 1;
+        }
+    }
+  }

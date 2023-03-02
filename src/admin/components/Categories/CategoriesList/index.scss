@@ -1,0 +1,60 @@
+.categoriesList{
+    .order__content{
+        padding: 1rem;
+    }
+   .image__table{
+        border-radius: 5px;
+        height: 70px;
+        width: 70px;
+    }
+    // .btn__group> button{
+    //     margin: 0 .3rem;
+    //     border: none;
+    //     background: none;
+    // }
+    .btn__group > a > button{
+        border: none;
+        margin: 0 .3rem;
+        background: none;
+        cursor: pointer;
+        border-radius: 6px;
+        padding: 10px;
+        color: #ffff;
+    }
+    .btn__group  a:nth-child(1) button{
+        background-color: #0298cf;
+    }
+    .btn__group  a:nth-child(2) button{
+        background-color: #f80000;
+    }
+    .inputSearch{
+        padding: .1rem .5rem;
+        border-radius: 5px;
+        border: 2px solid #576574;
+        outline: none;
+        font-size: 1rem;
+        color: #576574;
+        margin-right: 2rem;
+    }
+    .btn__add{
+        border: 2px solid #0fbcf9;
+        background: #0fbcf9;
+        font-size: 1rem;
+        border-radius: 5px;
+        padding: .1rem .5rem;
+        color: #fff;
+    }
+    .btn__add:hover{
+        background-color: orange;
+        border: 2px solid orange;
+        color: #fff;
+    }
+    .total__product > p{
+        font-weight: 600;
+    }
+    .total__product > p > span{
+        color: black;
+        font-weight: 600;
+        margin: 0 .5rem;
+    }
+}

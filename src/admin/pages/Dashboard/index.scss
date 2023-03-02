@@ -1,0 +1,32 @@
+main {
+ 
+    overflow-y: auto;
+  }
+.main__content{
+    padding: 20px;
+    .Chart{
+      margin: 1rem 0;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      .charts__left{
+        padding-right: 1rem;
+        padding: 1rem;
+      }
+      .charts__right{
+        padding-right: 1rem;
+        padding: 1rem;
+
+      }
+    }
+}
+@media only screen and (max-width: 768px) {
+  .main__content{
+      .Chart{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+      }
+  }
+}

@@ -1,0 +1,134 @@
+
+.product-field {
+    padding: 40px 20px;
+}
+
+.product-field ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-field ul .product-li {
+    list-style: none;
+    width: 100%;
+    height: 400px;
+    transition: 0.5 all;
+    background: #f4d7cf;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 200px 10px 0 10px;
+    position: relative;
+}
+
+picture{
+    background: #ff8c6b;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 41%;
+    width: 75%;
+    height: 85%;
+    border-radius: 50px 20px 0 20px;
+    transform: skewY(40deg);
+    overflow: hidden;
+    box-shadow: 0 1px 0 #00000020, -1px 0 0 #ccc;
+}
+
+picture img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    z-index: 1;
+    transform: skewY(-40deg);
+    padding: 25px 0 0 0;
+}
+
+.detail {
+    width: 100%;
+    height: 100%;
+}
+
+.detail .detail-icon {
+    width: 30%;
+    height: 55%;
+    padding: 20px 5px;
+    background: #f4d7cf;
+
+}
+
+.detail-icon span {
+    background: #00000030;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.detail-icon span a:hover {
+    color: white;
+}
+
+.detail-icon span:hover {
+    background: gray;
+    cursor: pointer;
+}
+
+.detail>strong {
+    display: inherit;
+    margin-left: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.detail>span {
+    display: inherit;
+    padding: 0 20px;
+    width: 80%;
+}
+
+.detail .detail-nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 10px;
+    left: 2px;
+}
+
+.detail small {
+    display: inline-block;
+    padding: 0 25px;
+    text-align: end;
+    font-weight: bold;
+    cursor: pointer;
+
+    a {
+        font-size: 2rem;
+        color: #ff8c6b;
+    }
+
+    a:hover {
+        color: #ff8c6b;
+    }
+}
+
+.detail small:hover {
+
+}
+
+.product-li h4 {
+    position: absolute;
+    right: 7px;
+    top: 58%;
+    font-size: 30px;
+    color: #555;
+    text-shadow: 1px 1px 2px black;
+}

@@ -1,0 +1,24 @@
+.modal-alert {
+    background-color: transparent;
+    position: relative;
+
+}
+
+.modal-alert img {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top: 55px;
+    left: -180px;
+}
+
+.modal-alert i {
+    position: absolute;
+    top: 65px;
+    right: -122px;
+    background-color: transparent;
+    padding: 0 6px;
+    color: white;
+    font-size: 2.8rem;
+    cursor: pointer;
+}

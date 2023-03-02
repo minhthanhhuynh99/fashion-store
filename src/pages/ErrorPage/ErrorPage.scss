@@ -1,0 +1,22 @@
+.autoError {
+    .container {
+        padding: 9rem 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 10rem;
+    }
+
+    p {
+        margin: 2rem 0;
+    }
+
+    button {
+        padding: 5px 15px;
+        border: none;
+        background-color: rgb(50, 50, 145);
+        color: #fff;
+        border-radius: 8px;
+    }
+}

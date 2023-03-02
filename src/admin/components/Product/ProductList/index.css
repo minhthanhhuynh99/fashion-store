@@ -1,0 +1,60 @@
+.product__list .product__add {
+  text-align: right;
+}
+.product__list .product__add > a > button {
+  border: none;
+  border-radius: 5px;
+  background: #0fbcf9;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+}
+.product__list .table {
+  overflow: auto;
+  border-radius: 0.5rem;
+}
+.product__list table {
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+.product__list table td, .product__list table th {
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+.product__list table td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.8rem;
+}
+.product__list table td > .img__productItem {
+  border-radius: 5px;
+  height: 60px;
+  width: 60px;
+}
+.product__list table td > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.product__list table th {
+  background-color: #0fbcf9;
+  font-weight: 500;
+  color: #fff;
+}
+.product__list .todo__emptyItemCard {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: red;
+}
+.product__list .todo__emptyItem {
+  text-align: center;
+  color: red;
+}
+.product__list .item__link button {
+  border: none;
+  background: none;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

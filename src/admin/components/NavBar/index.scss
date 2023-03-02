@@ -1,0 +1,73 @@
+.navbar__admin{
+    padding: 1rem 1rem;
+    box-shadow: 0 4px 6px -6px #222;
+    .profile__admin img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .navbar__notify{
+        margin: 0 .3rem;
+        display: flex;
+        align-items: center;
+    }
+    .navbar__notify >div{
+        margin: 0 .1rem;
+    }
+    .navbar__notify >div> i {
+        font-size: 1.3rem;
+    }
+    .navbar__notify >div> .counter__infor{
+        position: relative;
+        top: -15px;
+        right: 7px;
+        color: #fff;
+        font-size: .7rem;
+        font-weight: bold;
+        padding: .1rem .3rem;
+        border-radius: 50%;
+        background-color: red;
+    }
+    .navbar__notify >div> .counter__message{
+        position: relative;
+        top: -15px;
+        right: 7px;
+        color: #fff;
+        font-size: .7rem;
+        font-weight: bold;
+        padding: .1rem .3rem;
+        border-radius: 50%;
+        background-color: #0fbcf9;
+        
+    }
+}
+.navbar__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__content .navbar__icon{
+    cursor: pointer;
+   display: none;
+}
+.navbar__content .navbar__icon .icon__navbar{
+    font-size: 1.5rem;
+}
+.navbar__content .navbar__icon .icon__navbar:hover{
+    background-color: #fefefe13;
+    border-radius: 50%;
+    padding: .1rem;
+}
+.profile__details{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 978px){
+    .navbar__content .navbar__icon{
+        display: block;
+    }
+}

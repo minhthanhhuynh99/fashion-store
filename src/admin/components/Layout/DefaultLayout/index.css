@@ -1,0 +1,13 @@
+.main__admin {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+}
+
+.container__admin {
+  width: 100%;
+}
+
+.content__admin {
+  padding: 1rem 1rem;
+}/*# sourceMappingURL=index.css.map */

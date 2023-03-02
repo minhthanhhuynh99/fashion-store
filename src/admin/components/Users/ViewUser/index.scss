@@ -1,0 +1,134 @@
+.viewUser{
+    background-color: #ecf0f1;
+    height: calc(100vh - 70px);
+    padding: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    .viewUser__content{
+        padding: 1rem;
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: #fff;
+        .title{
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            text-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+        }
+        .content-viewUser{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1.5rem;
+            margin: 1rem 0;
+            padding: 1rem;
+
+        }
+        .content__right{
+            padding: 0 1rem;
+        }
+        .from__img {
+            text-align: center;
+        }
+        .from__img > img{
+            background-color: #bdc3c7;
+            padding: .1rem;
+            max-width: 280px;
+            height: 280px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .link__changePassword{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .link__changePassword > div{    
+            cursor: pointer;
+            margin: .2rem 0;
+            width: auto;
+            font-size: .9rem;
+            font-weight: 500;
+        }
+        .link__changePassword > div > span:hover{
+            transition: .8s;
+            color: orange;
+            font-weight: 600;
+        }
+        .link__changePassword > div > i{
+            margin-right: .8rem;
+            font-weight: 700;
+            color: orange;
+        }
+        .link__changePassword > div > a> i{
+            margin-right: .8rem;
+            font-weight: 700;
+            color: orange;
+        }
+        .link__changePassword > div> a:hover{
+            transition: .8s;
+            color: orange;
+            font-weight: 600;
+        }
+        .btn__click{
+            text-align: center;
+        }
+        .btn__click > button{
+            border: none;
+            border-radius: 5px;
+            background: #0fbcf9;
+            color: #fff;
+            margin: 1rem .7rem;
+            padding: .3rem .8rem;
+        }
+        .btn__click > button:hover{
+            background-color: orange;
+             transform: scale(1.1);
+        }
+    }
+    .info__group{
+        display: flex;
+        // flex-direction: column;
+        margin: .5rem auto;
+        align-items: center;
+    }
+    .info__group p{
+        flex: 2;
+        font-size: .9rem;
+        
+    }  
+    .info__group span{
+        flex: 3;
+        font-size: 1rem;
+        font-weight: 500;
+        color: hwb(206 49% 45%);
+ 
+    }
+    .info__group p{
+        white-space: nowrap;
+        font-weight: 600;
+        margin-right:  1rem;
+        color: black;
+        overflow: hidden;
+    }
+    .hide{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .viewUser{
+        height: 100%;
+        .viewUser__content{
+            max-width: 700px;
+            .content-viewUser{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 1rem;
+            }
+        }
+        .info__group p{
+            flex: 1;
+        }  
+        .info__group span{
+            flex: 1;
+        }
+    }
+  }

@@ -1,0 +1,186 @@
+
+.main {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #ff8c6b;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 1020px;
+    height: 640px;
+    background-color: #fff;
+    border-radius: 3.3rem;
+    box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27); 
+}
+.inner-box {
+    position: absolute;
+    width: calc(100% - 4.1rem);
+    height: calc(100% - 4.1rem);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.form-wrap {
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+
+
+.carousel {
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    left: 45%;
+    background-color: #ffe0d2;
+    border-radius: 2rem;
+}
+
+.form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    // background-color: #8371fd;
+}
+
+.logo-login {
+    display: flex;
+    align-items: center;
+}
+
+.logo-login img {
+    width: 27px;
+    margin: 0.3rem;
+}
+
+.logo-login h4 {
+    font-size: 1.1rem;
+    margin-top: -9px;
+    letter-spacing: -0.5px;
+    color: #151111;
+}
+
+.heading-form h2 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #151111
+}
+
+.heading-form h6 {
+    color: #151111;
+    font-weight: 600;
+    font-size: .75rem
+}
+
+.toggle {
+    color: #151111;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.toggle:hover {
+    color: #8371fd;
+}
+
+.input-wrap {
+    position: relative;
+    height: 37px;
+    margin-bottom: 2rem;
+}
+
+.input-field {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #151111;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 0.95rem;
+    color: #151111;
+}
+
+label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.label-mail {
+   position: relative;
+}
+
+.error-mail {
+    position: absolute;
+    top: -20px;
+    left: 3.5rem;
+    color: red;
+    font-weight: 500;
+    font-size: 0.85rem;
+
+}
+
+.error-mail:hover {
+    color: red;
+}
+
+.label-pass {
+    position: relative;
+ }
+ 
+.error-pass {
+     position: absolute;
+     top: -20px;
+     left: 5.5rem;
+     color: red;
+     font-weight: 500;
+     font-size: 0.85rem;
+
+}
+
+.error-pass:hover {
+    color: red;
+}
+
+
+
+.login-btn {
+    display: inline-block;
+    width: 90%;
+    height: 43px;
+    background-color: #151111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #8371fd;
+}

@@ -1,0 +1,62 @@
+.user__list .user__add {
+  text-align: right;
+}
+.user__list .user__add > a > button {
+  border: none;
+  border-radius: 5px;
+  background: #0fbcf9;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+}
+.user__list .table {
+  overflow: auto;
+  border-radius: 0.5rem;
+}
+.user__list table {
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+.user__list table td, .user__list table th {
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+.user__list table td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.8rem;
+}
+.user__list table td > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.user__list table th {
+  background-color: #0fbcf9;
+  font-weight: 500;
+  color: #fff;
+}
+.user__list .todo__emptyItemCard {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: red;
+}
+.user__list .todo__emptyItem {
+  text-align: center;
+  color: red;
+}
+.user__list .item__link button {
+  border: none;
+  background: none;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+  .user__list .table {
+    overflow: auto;
+    border-radius: 0.5rem;
+  }
+}/*# sourceMappingURL=index.css.map */

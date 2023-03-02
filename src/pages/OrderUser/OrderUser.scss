@@ -1,0 +1,302 @@
+.information {
+    width: 80%;
+    height: 300px;
+    background-color: #fbf5f5;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+.information h3 {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.information-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.information-header-left {
+    width: 300px;
+    position: relative;
+}
+
+.information-header-left i {
+   
+    color: black;
+    font-size: 1.5rem;
+}
+
+.information-header-left a {
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.information-header-right {
+    display: flex;
+}
+
+.information-header-right span {
+    margin-right: 15px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.information-header-right a {
+    font-size: 0.75rem;
+    border-right: 2px solid rgb(67, 67, 67);
+    padding: 3px 15px;
+}
+
+.information-header-right p {
+    line-height: 35px;
+    color: coral;
+    
+}
+
+.information-header-left a:hover {
+    color: black;
+}
+
+.information-header-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.information-header-body .information-icon {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(203, 250, 174);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
+    position: relative;
+}
+
+.information-header-body .straight-line {
+    width: 193px;
+    height: 5px;
+    background-color: green;
+    position: absolute;
+    top: 28px;
+    left: 65px;
+}
+
+.information-header-body .information-icon-none {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
+    position: relative;
+}
+
+.information-header-body .information-icon-none .straight-line-none {
+    width: 189px;
+    height: 5px;
+    background-color: rgb(174, 247, 174);
+    position: absolute;
+    top: 28px;
+    left: 68px;
+}
+
+.information-header-body .information-icon i {
+    font-size: 2rem;
+    color: green;
+    
+}
+
+.information-header-body .information-icon span {
+    position: absolute;
+    bottom: -35px;
+    left: -20px;
+    color: black;
+    font-size: 0.95rem;
+    width: 150px;
+    font-weight: 600;
+}
+
+.information-header-body .information-icon p {
+    position: absolute;
+    bottom: -53px;
+    left: -35px;
+    color: #ff8c6b;
+    font-size: 0.70rem;
+    width: 170px;
+    font-weight: bold;
+}
+
+.information-header-body .information-icon-none span {
+    position: absolute;
+    bottom: -36px;
+    left: -7px;
+    color: black;
+    font-size: 0.95rem;
+    width: 200px;
+    font-weight: 600;
+}
+
+.information-header-body .information-icon-none i {
+    color: green;
+    font-size: 2rem;
+    
+}
+
+.information-header-body .information-icon-none .span-icon-center {
+    position: absolute;
+    bottom: -36px;
+    left: -50px;
+    color: black;
+    font-size: 0.95rem;
+    width: 200px;
+    font-weight: 600;
+}
+
+
+.information-header-drum {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    margin-left: 95px;
+}
+
+.information-header-drum .information-icon-drum {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
+    position: relative;
+}
+
+.information-header-drum .information-icon-drum i {
+    color: rgb(125, 197, 125);
+    font-size: 2rem;
+}
+
+.information-header-drum .information-icon-drum span {
+    position: absolute;
+    bottom: -35px;
+    left: -20px;
+    color: black;
+    font-size: 0.95rem;
+    width: 150px;
+    font-weight: 600;
+}
+
+.information-header-drum .information-icon-drum .span-icon-center-drum {
+    position: absolute;
+    bottom: -37px;
+    left: -45px;
+    color: black;
+    font-size: 0.95rem;
+    width: 170px;
+    font-weight: 600;
+}
+
+.information-header-drum .information-icon-drum .span-end {
+    position: absolute;
+    bottom: -37px;
+    left: -6px;
+    color: black;
+    font-size: 0.95rem;
+    width: 170px;
+    font-weight: 600;
+}
+
+.information-header-drum .information-icon-drum .straight-line-drum {
+    width: 189px;
+    height: 5px;
+    background-color: rgb(199, 253, 199);
+    position: absolute;
+    top: 28px;
+    left: 68px;
+}
+
+.order-page {
+    width: 100%;
+    height: auto;
+}
+
+.order-content {
+    height: auto;
+}
+
+
+.table-box {
+    margin: 0 auto;
+    height: auto;
+}
+
+.table-row {
+    display: table;
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background-color: transparent;
+    padding: 12px 0;
+    color: black;
+    font-size: 15px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3 );
+}
+
+.order-content-name {
+    display: flex;
+}
+
+.order-content-name img {
+    width: 35px;
+    height: 35px;
+}
+
+.table-cell {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding:  4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+
+.table-cell i {
+    padding: 5px 17px;
+    color: #ff8c6b;
+    cursor: pointer;
+}
+
+.table-header {
+    background-color: #ff8c6b;
+}
+
+.table-cell-header {
+    border-right: 3px solid black;
+}
+
+.table-cell-header p {
+    color: black;
+    font-weight: bold;
+}
+
+.table-box {
+    height: 500px;
+}

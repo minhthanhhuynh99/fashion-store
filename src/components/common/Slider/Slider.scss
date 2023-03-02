@@ -1,0 +1,80 @@
+.slider {
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: relative;
+    overflow: hidden;
+    
+
+    .slider__container {
+        width: 300vw;
+        height: 100%;
+        display: flex;
+        transition: all 1s ease;
+
+        img {
+            width: 100vw;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slider__image {
+            position: relative;
+        }
+
+        .slider__content {
+            position: absolute;
+            top: 150px;
+            left: 50px;
+
+            h4 {
+                padding-bottom: 15px;
+            }
+
+            h2 {
+                font-weight: bold;
+            }
+
+            h1 {
+                color: #088178;
+                font-weight: bold;
+            }
+
+            p{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            button {
+                background-image: url(https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/main/img/button.png);
+                background-color: transparent;
+                color: #088178;
+                border: 0;
+                padding: 14px 80px 14px 65px;
+                background-repeat: no-repeat;
+                font-weight: 700;
+                font-size: 15px;
+            }
+        }
+    }
+
+    
+    .icons {
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 100px;
+        gap: 10px;
+        margin: auto;
+        display: flex;
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.changeAccount{
+    background-color: #ecf0f1;
+    height: calc(100vh - 70px);
+    padding: 1rem;
+    .changeAccount__content{
+        padding: 1rem;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        .form{
+            padding: 1rem 2rem;
+        }
+        .title{
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .form__group{
+            display: flex;
+            flex-direction: column;
+            margin: .5rem auto;
+        }
+        .form__group > label {
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+        } 
+        .form__group > label > span{
+            color: red;
+            font-weight: 400;
+            font-size: .8rem;
+            margin: 0 1rem;
+        }
+        .form__group > input {
+            margin: .5rem 0;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            outline: none;
+            padding: .5rem .5rem;
+        }
+        .btn__group {
+            text-align: center;
+        }
+        .btn__group > input {
+            border: none;
+            border-radius: 5px;
+            background: #0fbcf9;
+            color: #fff;
+            margin: 1rem .7rem;
+            padding: .3rem .8rem;
+        } 
+        .btn__group > input:hover{
+            background-color: orange;
+            transform: scale(1.1);
+        }
+    }
+}
